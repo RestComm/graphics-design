@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=1,initial-scale=1,user-scalable=1" />
+	<title>apps</title>
+	<!-- Custom CSS -->
+
+	<link rel="stylesheet" type="text/css" href="css/dashboard-revamp.css" />
+    <link rel="stylesheet" type="text/css" href="css/dashboard-revamp-3.css" />
+	<!-- Google Font -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core CSS -->
+	<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- jQuery Library -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <!-- Bootstrap Core JS -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="logo-container-inside">
+
+          <div class="restcomm-dashboard-inside"><img src="img/restcomm-dashboard-inside.png"></div>
+
+          <div class="icon-home"><a href="#"><img src="img/icons-navbar/d-r-icon-home.png"></a></div>  
+	      <div class="icon-home-fonts"><a href="#"><h4>Home</h4></a></div>
+	      
+	      <div class="icon-numbers"><a href="#"><img src="img/icons-navbar/d-r-icon-numbers.png"></a></div> 
+	      <div class="icon-numbers-fonts"><a href="#"><h4>Numbers</h4></a></div>
+
+	      <div class="icon-clients"><a href="#"><img src="img/icons-navbar/d-r-icon-clients.png"></a></div>	      
+	      <div class="icon-clients-fonts"><a href="#"><h4>Clients</h4></a></div>
+
+	      <div class="icon-olympus"><a href="#"><img src="img/icons-navbar/d-r-icon-olympus.png"></a></div>
+	       <div class="icon-olympus-fonts"><a href="#"><h4>Olympus</h4></a></div>
+
+	      <div class="icon-v-d"><a href="#"><img src="img/icons-navbar/d-r-icon-v-d.png"></a></div>
+	      <div class="icon-v-d-fonts"><a href="#"><h4>Visual Designer</h4></a></div>
+
+	      <div class="icon-logs"><a href="#"><img src="img/icons-navbar/d-r-icon-logs.png"></a></div>
+	      <div class="icon-logs-fonts"><a href="#"><h4>Logs</h4></a></div>
+
+	      <div class="icon-apps"><a href="#"><img src="img/icons-navbar/d-r-icon-apps.png"></a></div>
+	      <div class="icon-apps-fonts"><a href="#"><h4>Apps</h4></a></div>
+
+<div class="dropdown">
+  <button class="dropbtn">Despina Ipsilanti<span id="drop-down-arrow"><img src="img/d-r-icon-arrow-down.png"></span></button>
+  <div class="dropdown-content">
+    <div id="drop-down-icons-settings"><img src="img/icons-dropdown/drop-down-icon-settings.png"></div>
+    <div  id="drop-down-fonts"><a href="#">Account Settings</a></div>
+    <div id="drop-down-icons-sub-accounts"><img src="img/icons-dropdown/drop-down-icon-sub-accounts.png"></div>
+    <div  id="drop-down-fonts"><a href="#">Sub-Accounts</a></div>
+    <div id="drop-down-icons-create-account"><img src="img/icons-dropdown/drop-down-icon-create-account.png"></div>
+    <div  id="drop-down-fonts"><a href="#">Create New Account</a></div>
+    <div id="drop-down-icons-sign-out"><img src="img/icons-dropdown/drop-down-icon-sign-out.png"></div>
+    <div  id="drop-down-fonts"><a href="#">Sign Out</a></div>
+  </div>
+</div>
+</div>
+
+
+<div>
+  <div class="app-selections-container">     
+   <form  id="search-app" method="get" action="/search">
+    <img id="search-icon-app" src="img/search-icon-light-blue.png"> 
+    <input name="q" type="text" size="40" placeholder="My App..." />
+   </form> 
+<div class="drop-area" ng-file-drop="importPackage($files)" ng-file-drag-over-class="dropping" ng-show="dropSupported">
+  <div class="drop-prompt">Drop packaged apps here</div>
+</div>
+<div id="radio-btn-app">
+ <table>
+  <tr>
+   <td>
+     <input type="radio" name="radiog_dark" id="radio4" class="css-checkbox" />
+     <label for="radio4" class="css-label radGroup2">All</label>
+   </td>
+   <td>
+     <input type="radio" name="radiog_dark" id="radio5" class="css-checkbox" checked="checked"/>
+     <label for="radio5" class="css-label radGroup2">Local</label>
+   </td>
+   <td>
+     <input type="radio" name="radiog_dark" id="radio6" class="css-checkbox" />
+     <label for="radio6" class="css-label radGroup2">RAS</label>
+   </td>
+  </tr>
+ </table>
+</div> 
+<div class="h4-number-name-feature">
+  <div><h4 class="title-apps">Title</h4></div>
+  <div><h4 class="type-apps">Type</h4></div>
+  <div><h4 class="status-apps">Status</h4></div>
+  <div><h4 class="categories-apps">Categories</h4></div>
+  <div><h4 class="description-apps">Description</h4></div>
+</div>   
+<div class="border-number-name-feature"></div>
+
+<!--I have put some numbers to see how it looks like.-->
+<div class="h5-test">
+  <div>
+  <div class="rapp-title-cell">
+    <a href="#" target="_blank"><img src="img/app-icons/ussd-apps.png"></a>
+    <div class="text-center app-title-wrap app-ras">
+    <a ng-show="app.isLocal" href="/restcomm-rvd/#/designer/=" target="_blank" title="2897" class="ng-binding ng-hide">ABC Auto Repair Service</a>
+                
+    </div>
+         
+    </div>
+  </div>
+
+  <div><img src="img/delete-number.png" class="h5-test-delete"></div>
+</div>  
+
+
+<div class="h5-test">
+  <div>
+  <div class="rapp-title-cell">
+    <a href="#" target="_blank"><img src="img/app-icons/voice-apps.png"></a>
+    <div class="text-center app-title-wrap app-ras">
+    <a ng-show="app.isLocal" href="/restcomm-rvd/#/designer/=" target="_blank" title="2897" class="ng-binding ng-hide">ABC Auto Repair Service</a>
+                
+    </div>
+         
+    </div>
+  </div>
+
+  <div><img src="img/delete-number.png" class="h5-test-delete"></div>
+</div>  
+
+<div class="h5-test">
+  <div>
+  <div class="rapp-title-cell">
+    <a href="#" target="_blank"><img src="img/app-icons/sms-apps.png"></a>
+    <div class="text-center app-title-wrap app-ras">
+    <a ng-show="app.isLocal" href="/restcomm-rvd/#/designer/=" target="_blank" title="2897" class="ng-binding ng-hide">ABC Auto Repair Service</a>
+                
+    </div>
+         
+    </div>
+  </div>
+
+  <div><img src="img/delete-number.png" class="h5-test-delete"></div>
+</div>  
+
+
+</div>  
+
+
+</div>
+</div>   
+
+
+
+
+
+
+</body>
+</html>

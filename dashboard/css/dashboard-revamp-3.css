@@ -1,0 +1,76 @@
+input[type=radio].css-checkbox {
+position:absolute; 
+z-index:-1000; 
+left:-1000px; 
+overflow: 
+hidden; 
+clip: 
+rect(0 0 0 0); 
+height:1px; 
+width:1px; 
+margin:-1px; 
+padding:0; 
+border:0;
+
+font-family: lato;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+padding-left:26px;
+height:16px; 
+display:inline-block;
+line-height:16px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+background-position: 0 -16px;
+}
+label.css-label {
+background-image:url("radio-btn-light-blue.png");
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top: 55px;
+margin-left: 70px;
+    font-size: 15px;
+    color: #6d6e70;
+    font-weight: 400;
+}
+
+h1 {
+
+float: left;
+padding:0px; 
+padding-left:50px; 
+padding-bottom:10px; 
+font-family:lato;"
+   
+
+}    
+
+
+.capabilities {
+position: fixed;
+    float: left;
+    margin-left: 630px;
+      font-size: 18px;
+    color: #44a5ab;
+}
+
+.type{
+	position: fixed;
+    float: left;
+    margin-left: 950px;
+      font-size: 18px;
+    color: #44a5ab;
+}
