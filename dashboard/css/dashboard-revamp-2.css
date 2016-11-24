@@ -49,7 +49,7 @@ margin-left: 60px;
 
 h1 {
 
-
+float: left;
 padding:0px; 
 padding-left:50px; 
 padding-bottom:10px; 
@@ -61,8 +61,16 @@ font-family:lato;"
 
 .capabilities {
 position: fixed;
-    
+    float: left;
     margin-left: 630px;
+      font-size: 18px;
+    color: #44a5ab;
+}
+
+.type{
+	position: fixed;
+    float: left;
+    margin-left: 950px;
       font-size: 18px;
     color: #44a5ab;
 }
