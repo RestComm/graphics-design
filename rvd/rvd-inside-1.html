@@ -57,12 +57,12 @@
 </div>
 
 
+<div class="container-fluid">
 
-
-
-
+<div>
+<div class="col-md-2">
  <ul id="verbs">
-  <li class="verb-btns"><div><button class="verb-drop" type="submit" name="go" class="btn btn-lg btn-block btn-success"><img id="play-verb" src="img/play-verb.png"> <p id="play-fonts">Play</p></button></div></li>
+  <li class="verb-btns top-verb"><div><button class="verb-drop" type="submit" name="go" class="btn btn-lg btn-block btn-success"><img id="play-verb" src="img/play-verb.png"> <p id="play-fonts">Play</p></button></div></li>
 
   <li class="verb-btns"><div><button class="verb-drop" type="submit" name="go" class="btn btn-lg btn-block btn-success"><img id="say-verb" src="img/say-verb.png"> <p id="say-fonts">Say</p></button></div></li>
 
@@ -88,14 +88,32 @@
 
   <li class="verb-btns"><div><button class="verb-drop" type="submit" name="go" class="btn btn-lg btn-block btn-success"><img id="record-verb" src="img/record-verb.png"> <p id="record-fonts">Record</p></button></div></li>
 
-  <li class="verb-btns"><div><button class="verb-drop" type="submit" name="go" class="btn btn-lg btn-block btn-success"><img id="fax-verb" src="img/fax-verb.png"> <p id="fax-fonts">Fax</p></button></div></li>
  </ul>
 
+  <h3 id="audio-resources">Audio Resources</h3>
+
+</div>
+
+</div>
 
 
+<div class="working-area">
+  <button class="button-modules"><h5 class="modules-fonts">Modules</h5></button>
+  <button class="button-filter"><img id="close-img" src="img/filter-icon.png"></button>
+  <button class="button-plus">+</button>
+  <button class="button-start-up"><h5 class="startup-fonts">Startup module - Welcome</h5></button>
+    <button class="button-close-project"><img id="close-img" src="img/close-app.png"></button>
+    <h4 id="project-rvd">Antonis rvd</h4>
 
-<div class="working-area"></div>
+</div>
 
+  
+  <div class="drop-area2" ng-file-drop="importPackage($files)" ng-file-drag-over-class="dropping" ng-show="dropSupported">
+  <div class="drop-prompt2">Drop new audio</div>
+
+  </div>
+
+</div>
     
 <script src="js/rvd.js"></script>    
 </body>
