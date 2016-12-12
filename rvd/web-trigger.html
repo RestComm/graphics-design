@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=1,initial-scale=1,user-scalable=1" />
+	<title>web-trigger</title>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/rvd.css" />
+	<!-- Google Font -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core CSS -->
+	<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- jQuery Library -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <!-- Bootstrap Core JS -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="logo-container-inside">
+
+  <img src="img/restcomm-v-d-logo-inside.png" class="restcomm-v-d-inside">
+
+		<div class="dropdown">
+  <button class="dropbtn">Despina Ipsilanti</button>
+  <div class="dropdown-content">
+
+    <div  id="drop-down-fonts"><a href="#">Settings</a></div>
+
+    <div  id="drop-down-fonts"><a href="#">Language</a></div>
+
+    <div  id="drop-down-fonts"><a href="#">Sign Out</a></div>
+  </div>
+  </div>
+
+<div class="nav-bar">
+<ul class="topnav" id="myTopnav">
+  <li><a href="#"><img src="img/diagram-icon-nav.png">    Diagram</a></li>
+  <li><a href="#"><img src="img/web-trigger-icon-nav.png">    Web Trigger</a></li>
+  <li><a href="#"><img src="img/export-icon-nav.png">    Export</a></li>
+  <li><a href="#"><img src="img/save-icon-nav.png">    Save</a></li>
+  <li><a href="#"><img src="img/app-url-icon-nav.png">    App URL</a></li>
+  <li><a href="#"><img src="img/logs-icon-nav.png">    Application Log</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+<div class="row">
+ <h4 id="web-trigger-hint">Web Trigger allows starting your application using a simple HTTP call</h4>
+</div>
+  <div class="checkbox-web-trigger-enable">
+    <div>
+      <input id="checkbox1" type="checkbox" name="checkbox" value="1"><label id="enable-web-trigger" for="checkbox1"><span></span>Enable Web Trigger</label>
+    </div>
+  </div>
+</div>
+
+<div class="row"  id="after-enable">
+ <div class="row">
+  <h4 class="web-access-fallback"><span class="field-tip">Web Trigger URL<span class="tip-content">Note that <b>from</b> and <b>to</b> URL parameters can be omitted if fallback values have been defined. Also, additional parameters can be appended to the url. They will be available as module scoped RVD variables when the application starts</span></span></h4>
+  <h4 class="web-trigger-url-body"> https://cloud.restcomm.com:443/restcomm-<br>rvd/services/apps/AP312bf0a27d4348c0aa77aade18df7ab3/start<font color="#2c2c2d"><b>?<br>from=12345&to=+1231231231&token=mysecret</b></font></h4>
+ </div>
+ <div class="row" id="access-token-margin-top">
+  <h4 class="web-access-fallback"><span class="field-tip">Access Token<span class="tip-content">Protect your Web Trigger URL with an access token. If set, make sure you provide the same <b>token</b> parameter when making the HTTP call. Leave it blank to allow free access.</span></span><form><input id="textbox-input-access-token" type="text" name="firstname"></form></h4>
+  <h5 id="under-textbox-access-token">Access token is empty! Your trigger may only be accessed using HTTP basic authentication.</h5>
+ </div>
+ <div class="row">
+  <div class="fallback-parameters">
+  <h4 class="web-access-fallback"><span class="field-tip">Fallback Parameters<span class="tip-content">You can optionally provide fallback <b>To</b> and <b>From</b> values in case they are not supplied in the HTTP call.<br><br>Note that From and To values use the Restcomm RCML dial syntax. For example: <b>+1232343294</b> or <b>client:bob</b> or <b>conference:1234</b> or <b>sip:+12839283849@server.com</b></span></span></h4>
+   <h4 id="to">To</h4><form ><input id="textbox-input-fallback-1" type="text" name="firstname"></form><h4 id="from">From</h4><form><input id="textbox-input-fallback-2" type="text" name="firstname"></form>
+   </div>
+ </div>
+</div> 
+<div class="row" id="cancel-save-btn">
+  <button class="button-cancel-web-tr"><h5 class="modules-fonts">Cancel</h5></button>
+  <button class="button-save-web-tr"><h5 class="modules-fonts">Save</h5></button>
+</div>
+    
+<script src="js/rvd.js"></script>    
+</body>
+</html>

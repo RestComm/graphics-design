@@ -17,3 +17,4 @@ $(function()
       };
       $('input').change(f).trigger('change');
   });
+
