@@ -1670,7 +1670,7 @@ input[type=checkbox]:not(old):checked + label > span:before{
   font-size   : 0.9em;
   line-height : 1em;
   text-align  : center;
-  text-shadow : none
+  text-shadow : none;
   font-weight : normal;
 }
 
@@ -1807,7 +1807,7 @@ input[type=checkbox]:not(old):checked + label > span:before{
 
 .button-cancel-web-tr {
   float: left;
-  margin-left: 600px;
+  margin-left: 800px;
   margin-top: 10px;
   display: inline-block;
   padding: 2px 13px;
@@ -1861,14 +1861,14 @@ box-shadow: 1px 1px 1px #a0a0a0;}
 }
 
 #cancel-save-btn {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 
 .enable-application-log {
     float: left;
     margin-left: 110px;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: #ffffff;
     border: 2px solid #e4e3e3;
     color: #6d6e70;
@@ -1882,4 +1882,77 @@ box-shadow: 1px 1px 1px #a0a0a0;}
 
 @media only screen and (max-width: 2500px){
     .enable-application-log { width: 79%; }
+
+
+
+.button-reset-a-l {
+  float: left;
+  margin-left: 600px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 2px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #6d6e70;
+  background-color: #d1d1d1;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px #a0a0a0;
 }
+
+.button-reset-a-l:hover {background-color: #c8c7c7;
+box-shadow: 1px 1px 1px #a0a0a0;}
+
+.button-reset-a-l:active {
+  background-color: #c8c7c7;
+    box-shadow: 1px 1px 1px #a0a0a0;
+  transform: translateY(1px);
+}
+
+.button-reload-a-l{
+  float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 2px 22px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #68b3b8;
+  border: none;
+  border-radius: 10px;
+     box-shadow: 1px 2px 1px #a0a0a0;
+   }
+
+
+.button-reload-a-l:hover {background-color: #5da1a6;
+box-shadow: 1px 1px 1px #a0a0a0;}
+
+.button-reload-a-l:active {
+  background-color: #5da1a6;
+    box-shadow: 1px 1px 1px #a0a0a0;
+  transform: translateY(1px);
+}
+
+#reset-reload-btn {
+  margin-top: 20px;
+}
+
+.checkbox-log-rcml {
+  float: left;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+#enable-log-rcml {
+ font-size: 15px;
+ color: #6d6e70;
+ font-weight: 400;
+}
+
