@@ -45,6 +45,16 @@ skinparam sequenceParticipantBorderColor #4a4a4b
 skinparam sequenceBoxLineColor #4a4a4b
 skinparam sequenceBoxBackgroundColor #DDDDDD
 
+
+skinparam BoundaryBackgroundColor #6d6e70
+skinparam BoundaryBorderColor #4a4a4b
+skinparam ControlBackgroundColor #6d6e70
+skinparam ControlBorderColor #4a4a4b
+skinparam DatabaseBackgroundColor #6d6e70
+skinparam DatabaseBorderColor #4a4a4b
+skinparam EntityBackgroundColor #6d6e70
+skinparam EntityBorderColor #4a4a4b
+
 skinparam sequenceDividerFontColor white 
 skinparam NoteFontColor #4a4a4b
 
