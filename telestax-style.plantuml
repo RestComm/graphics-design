@@ -1,0 +1,51 @@
+@startuml
+skinparam backgroundColor white
+skinparam activityArrowColor #4a4a4b
+skinparam activityBackgroundColor #6d6e70
+skinparam activityBorderColor #4a4a4b
+skinparam activityStartColor black
+skinparam activityEndColor black
+skinparam activityBarColor black
+skinparam sequenceactorBackgroundColor #6d6e70
+skinparam sequenceactorBorderColor #4a4a4b
+skinparam usecaseArrowColor #4a4a4b
+skinparam usecaseBackgroundColor #6d6e70
+skinparam usecaseBorderColor #4a4a4b
+skinparam classArrowColor #4a4a4b
+skinparam classBackgroundColor #6d6e70
+skinparam classBorderColor #4a4a4b
+skinparam objectArrowColor #4a4a4b
+skinparam objectBackgroundColor #6d6e70
+skinparam objectBorderColor #4a4a4b
+skinparam packageBackgroundColor #6d6e70
+skinparam packageBorderColor #4a4a4b
+skinparam stereotypeCBackgroundColor #ADD1B2
+skinparam stereotypeABackgroundColor #A9DCDF
+skinparam stereotypeIBackgroundColor #B4A7E5
+skinparam stereotypeEBackgroundColor #EB937F
+skinparam componentArrowColor #4a4a4b
+skinparam componentBackgroundColor #6d6e70
+skinparam componentBorderColor #4a4a4b
+skinparam componentInterfaceBackgroundColor #6d6e70
+skinparam componentInterfaceBorderColor	#4a4a4b
+skinparam noteBackgroundColor #c8c6c8
+skinparam noteBorderColor #4a4a4b
+skinparam stateBackgroundColor #6d6e70
+skinparam stateBorderColor #4a4a4b
+skinparam stateArrowColor #4a4a4b
+skinparam stateStartColor black
+skinparam stateEndColor	black
+skinparam sequenceArrowColor #4a4a4b
+skinparam sequenceDividerBackgroundColor #44a5ab
+skinparam sequenceGroupBackgroundColor #44a5ab
+skinparam sequenceLifeLineBackgroundColor white
+skinparam sequenceLifeLineBorderColor #4a4a4b
+skinparam sequenceParticipantBackgroundColor #6d6e70
+skinparam sequenceParticipantBorderColor #4a4a4b
+skinparam sequenceBoxLineColor #4a4a4b
+skinparam sequenceBoxBackgroundColor #DDDDDD
+
+skinparam sequenceDividerFontColor white 
+skinparam NoteFontColor #4a4a4b
+
+@enduml
