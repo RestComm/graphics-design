@@ -1,6 +1,6 @@
 @startuml
 skinparam backgroundColor white
-skinparam activityArrowColor #4a4a4b
+skinparam activityArrowColor #dd4126
 skinparam activityBackgroundColor #6d6e70
 skinparam activityBorderColor #4a4a4b
 skinparam activityStartColor black
@@ -8,13 +8,13 @@ skinparam activityEndColor black
 skinparam activityBarColor black
 skinparam sequenceactorBackgroundColor #6d6e70
 skinparam sequenceactorBorderColor #4a4a4b
-skinparam usecaseArrowColor #4a4a4b
+skinparam usecaseArrowColor #dd4126
 skinparam usecaseBackgroundColor #6d6e70
 skinparam usecaseBorderColor #4a4a4b
-skinparam classArrowColor #4a4a4b
+skinparam classArrowColor #dd4126
 skinparam classBackgroundColor #6d6e70
 skinparam classBorderColor #4a4a4b
-skinparam objectArrowColor #4a4a4b
+skinparam objectArrowColor #dd4126
 skinparam objectBackgroundColor #6d6e70
 skinparam objectBorderColor #4a4a4b
 skinparam packageBackgroundColor #6d6e70
@@ -23,7 +23,7 @@ skinparam stereotypeCBackgroundColor #ADD1B2
 skinparam stereotypeABackgroundColor #A9DCDF
 skinparam stereotypeIBackgroundColor #B4A7E5
 skinparam stereotypeEBackgroundColor #EB937F
-skinparam componentArrowColor #4a4a4b
+skinparam componentArrowColor #dd4126
 skinparam componentBackgroundColor #6d6e70
 skinparam componentBorderColor #4a4a4b
 skinparam componentInterfaceBackgroundColor #6d6e70
@@ -32,14 +32,14 @@ skinparam noteBackgroundColor #c8c6c8
 skinparam noteBorderColor #4a4a4b
 skinparam stateBackgroundColor #6d6e70
 skinparam stateBorderColor #4a4a4b
-skinparam stateArrowColor #4a4a4b
+skinparam stateArrowColor #dd4126
 skinparam stateStartColor black
 skinparam stateEndColor	black
-skinparam sequenceArrowColor #4a4a4b
+skinparam sequenceArrowColor #dd4126
 skinparam sequenceDividerBackgroundColor #44a5ab
 skinparam sequenceGroupBackgroundColor #44a5ab
 skinparam sequenceLifeLineBackgroundColor white
-skinparam sequenceLifeLineBorderColor #4a4a4b
+skinparam sequenceLifeLineBorderColor #f26933
 skinparam sequenceParticipantBackgroundColor #6d6e70
 skinparam sequenceParticipantBorderColor #4a4a4b
 skinparam sequenceBoxLineColor #4a4a4b
